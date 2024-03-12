@@ -6,7 +6,7 @@ import { createClient } from 'redis';
  */
 class RedisClient {
   /**
-   * Creates a new RedisClient instance.
+   * This creates a new RedisClient instance.
    */
   constructor() {
     // Initialize Redis client
@@ -74,4 +74,3 @@ class RedisClient {
 // Export an instance of the RedisClient class
 export const redisClient = new RedisClient();
 export default redisClient;
-
